@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@layer base {
+  .btnContainer {
+    color: black;
+    text-align: center;
+    margin:20px  20px;
+  }
+  .btnContainer button {
+    margin: 0 10px;
+    padding: 10px;
+  }
+  .selected {
+    background: #ff9900;
+  }
+}
